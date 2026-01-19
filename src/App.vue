@@ -5,6 +5,8 @@ import Input from './components/Input.vue';
 import LoginLogout from './components/LoginLogout.vue';
 import Lista from './components/Lista.vue';
 import ToDo from './components/ToDo.vue';
+import ContCaracteres from './components/ContCaracteres.vue';
+import Filtro from './components/Filtro.vue';
 </script>
 
 <template>
@@ -38,6 +40,16 @@ import ToDo from './components/ToDo.vue';
       <div>
         <h2>To-Do List</h2>
         <ToDo />
+      </div>
+      <hr>
+      <div>
+        <h2>Contador de caracteres</h2>
+        <ContCaracteres />
+      </div>
+      <hr>
+      <div>
+        <h2>Filtro por status e nome</h2>
+        <Filtro />
       </div>
     </div>
   </main>
