@@ -31,7 +31,10 @@ function openProject (key:string){
 
 <template>
   <main>
-
+    <h1>Vue Playground</h1>
+    <p>Este site é um playground para treinar Vue.js.
+    Aqui testo componentes, lógica, estados e ideias enquanto aprendo e evoluo no framework.</p>
+    <br>
     <div class="">
     <ProjectCard
       v-for="project in projects"
@@ -42,7 +45,9 @@ function openProject (key:string){
     </div>
     <div>
 
-    
+      <br>
+      <hr>
+      <h2>Projeto</h2>
     <Contador v-if="isSelected === 'contador'" />
     <Input v-if="isSelected === 'input'" />
     </div>
@@ -53,48 +58,6 @@ function openProject (key:string){
     <ContCaracteres v-if="isSelected === 'contadorCaracter'" />
     <Filtro v-if="isSelected === 'filter'" />
     <UserCard v-if="isSelected === 'userCard'" />
-
-    <!--<div>
-      <h1>Vue Playground</h1>
-      <p>Isto é um simples playground em Vue</p>
-      <p>Usado para treinar funções, diretivas, eventos e etc em Vue</p>
-    </div>
-    <hr>
-    <div>
-      <h2>Simples @click</h2>
-      <Click />
-      <hr>
-      <h2>Contador</h2>
-      <Contador />
-      <hr>
-      <h2>Login e Logout</h2>
-      <LoginLogout />
-      <hr>
-      <h2>Input Espelho</h2>
-      <Input />
-      <hr>
-      <h2>Lista Simples</h2>
-      <Lista />
-      <hr>
-    </div>
-    <div>
-      <h1>Nível 2</h1>
-      <hr>
-      <div>
-        <h2>To-Do List</h2>
-        <ToDo />
-      </div>
-      <hr>
-      <div>
-        <h2>Contador de caracteres</h2>
-        <ContCaracteres />
-      </div>
-      <hr>
-      <div>
-        <h2>Filtro por status e nome</h2>
-        <Filtro />
-      </div>
-    </div>-->
   </main>
 </template>
 

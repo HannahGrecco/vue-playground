@@ -11,7 +11,7 @@ function handleClick() {
 </script>
 
 <template>
-  <div>
+  <div class="container">
     <h3>{{ project.name }}</h3>
     <button @click="handleClick">
       Ver projeto
