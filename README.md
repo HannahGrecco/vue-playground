@@ -1,5 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# Vue Playground 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+##  Objetivo
+Playground pessoal para treinar e experimentar conceitos do **Vue.js**, como componentes, reatividade, diretivas e lógica de estado.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Este projeto não tem foco em produção, servindo apenas como espaço de aprendizado e testes.
+
+##  Como rodar o projeto
+```bash
+npm install
+npm run dev
